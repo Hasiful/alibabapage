@@ -1,0 +1,331 @@
+.banner_section{
+    background: url(../image/TB1b4qlChD1gK0jSZFsXXbldVXa-1920-230.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 65px;
+    padding-bottom: 23px;
+}
+
+.banner_content{}
+
+.banner_content_title{
+    line-height: 55px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner_content_subtitle{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.category_nab_button{
+    width: 300px;
+    height: 32px;
+    padding-right: 20px;
+    cursor: pointer;
+    line-height: 32px;
+    text-align: center;
+    color: #0095e6;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 16px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.button-extend-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(270deg);
+    right: 20px;
+}
+
+.tab_section_cloth {
+    max-width: 1224px;
+    width: 100%;
+    margin: 20px auto 30px;
+}
+
+.tab_section_content{
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+.tab_section_content ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tab_section_content ul li{}
+
+.tab_section_content ul li a{
+    width: 200px;
+    height: 56px;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+}
+.tab_section_content ul li a:hover{
+    background-color: #000;
+    color: #FFFFFF !important;
+}
+.nav-link .active{
+    position: relative;
+}
+.nav-link .active::after{
+    content: '';
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #f60;
+    bottom: -9px;
+}
+
+.nav-link {
+    padding: 0px !important;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: unset !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #f60;
+}
+
+.tab_section_content_page_wrap{}
+
+.tab_section_content_page{}
+
+.tab_page_title{
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+.tab_Pagecontent_item_wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 40px;
+    background-color: #f2f3f7;
+    border-radius: 10px;
+}
+
+.tab_page_product_item {
+    background-color: rgb(255, 255, 255);
+    padding: 28px 33px;
+    display: flex;
+    align-items: center;
+}
+
+.tab_page_product_item_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+}
+
+
+.product_basic_info {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.product_basic_info_flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/TB1GnKHc7L0gK0jSZFtXXXQCXXa-50-52.webp);
+    width: 25px;
+    height: 26px;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-size: 25px 26px;
+    margin-top: -10px;
+}
+
+.product_basicInfo_content{}
+.product_basicInfo_content_title{
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    line-height: 16px;
+}
+
+.product_basicInfo_content_taglist {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.product_basicInfo_content_taglist_left{
+    display: inline-block;
+    font-weight: 700;
+    margin-left: 2px;
+    vertical-align: top;
+    line-height: 1;
+    white-space: nowrap;
+    color: #333;
+    font-size: 12px;
+    background-color: #F5F5F5;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+.product_basicInfo_content_taglist_iconSvg{
+    display: inline-block;
+}
+
+.star-rating_basicinfo{
+
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1px 3px;
+    margin-left: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #FF6A00;
+    background-color: #fff0e7;
+}
+
+.start_image_rating_basicinfo{
+    height: 8px;
+    width: 8px;
+}
+
+.product_basicInfo_content_taglist_reveiw{
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+
+.product_keya_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 16px;
+    width: 250px;
+}
+
+.product_keya_data_left{
+    border-right: 1px solid #eee;
+    width: 125px;
+    padding-right: 25px;
+}
+
+.product_keya_data_left_title{
+
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product_keya_data_left_value{
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+}
+
+.product_keya_data_right{
+    border: none !important;
+    margin-left: 20px;
+    padding: 0px !important;
+}
+
+.product_shower_image{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.product_shower_image_siingle{
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    position: relative;
+    
+}
+.product_shower_image_siingle::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.03);
+    top: 0px;
+    left: 0px;
+}
+.product_shower_image_siingle:hover::after{
+    background-color: transparent;
+}
+
+.product_shower_image_siingle img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all linear 0.3s;
+   
+}
+
+.product_shower_image_siingle:hover img{
+    transform: scale(1.1);
+}
+
+.product_order_contact {
+    width: 117px;
+}
+.product_order_contact_list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_order_contact_list_icon{
+    height: 12px;
+    width: 12px;
+}
+.product_order_contact_list_icon img{
+    width: 100%;
+    display: block;
+
+}
+.product_order_contact_list_text{
+    font-size: 12px;
+    color: #333;
+}
+
+.tab_page_product_item2{
+    background-color: #FAFAFA;
+}

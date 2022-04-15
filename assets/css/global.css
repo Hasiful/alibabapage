@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #F2F3F7;
+}
+p,h1,h2,h3,h4,h5,h6,a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a:hover{
+    color: unset;
+}
